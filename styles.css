@@ -30,3 +30,34 @@ header {
   font-size: 0.75em;
   cursor: pointer;
 }
+
+.results {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 0 100px;
+  justify-content: space-between;
+}
+
+/* loading bar */
+.bar {
+  position: relative;
+  margin: 50px 10px;
+  border: 2px solid black;
+  height: 20px;
+  width: 1000%;
+}
+
+.progress {
+  position: absolute;
+  background-color: lightgreen;
+  height: 20px;
+}
+
+.progress-stats {
+  position: absolute;
+  font-size: 0.5em;
+  font-weight: bold;
+  right: 10px;
+  top: 30px;
+}

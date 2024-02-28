@@ -1,0 +1,32 @@
+body {
+  text-align: center;
+  font-size: 2em;
+  background-color: lightblue;
+  margin: 0;
+}
+
+header {
+  margin: -20px;
+}
+.counter-div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.day-counter {
+  border: 2px solid black;
+  padding: 50px 70px;
+  margin-top: -20px;
+  background-color: rgb(36, 142, 177);
+  font-size: 1.5em;
+}
+
+.div-buttons button {
+  border: 2px solid black;
+  border-radius: 5px;
+  background-color: rgb(36, 142, 177);
+  padding: 10px;
+  font-size: 0.75em;
+  cursor: pointer;
+}

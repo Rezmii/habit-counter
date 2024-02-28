@@ -6,7 +6,7 @@ body {
 }
 
 header {
-  margin: -20px;
+  margin: -40px;
 }
 .counter-div {
   display: flex;
@@ -42,7 +42,7 @@ header {
 /* loading bar */
 .bar {
   position: relative;
-  margin: 50px 10px;
+  margin: 80px 10px 0 10px;
   border: 2px solid black;
   height: 20px;
   width: 1000%;
@@ -60,4 +60,13 @@ header {
   font-weight: bold;
   right: 10px;
   top: 30px;
+}
+
+/* pie graphh */
+
+.pie-graph {
+  margin-top: 50px;
+}
+
+#myChart {
 }
